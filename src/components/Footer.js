@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareInstagram } from '@fortawesome/free-brands-svg-icons';
 import '../styles/Footer.css';
 
 const Footer = () => {
@@ -7,13 +9,23 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>Email: info@stjohnsdefenders.com</p>
-          <p>Phone: do we want a phone number?</p>
+          <p>Email: info@stjohnsdefenders.org</p>
+          <p>Phone: (555) 123-4567</p>
         </div>
         <div className="footer-section">
-          <h3>Find out more</h3>
-          <p>Other social media</p>
+          <h3>Follow Us</h3>
+          <div className="social-link">
+            <FontAwesomeIcon icon={faSquareInstagram} className="social-icon" />
+            <a 
+              href="https://www.instagram.com/stjohnsdefender" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              @stjohnsdefender
+            </a>
+            </div>
           <p>Other contacts</p>
+          <p>Other social media</p>
           <p>Other resources</p>
         </div>
       </div>
