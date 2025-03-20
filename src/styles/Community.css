@@ -15,13 +15,12 @@
 
 .hero-content {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 .hero-content h1 {
   font-size: 3.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .hero-content p {
@@ -52,18 +51,4 @@
   .hero-content p {
     font-size: 1.2rem;
   }
-}
-
-.dan-image {
-  max-width: 100%;
-  height: auto;
-  margin-top: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  max-height: 150px;
-  transition: all 5s ease;
-}
-
-.dan-image:hover {
-  transform: scale(10) rotate(720deg);
 }
