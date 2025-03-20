@@ -8,22 +8,22 @@ const Info = () => {
         <h2>Who We Are</h2>
         <p>We are passionate community members who live, work, and raise our families in St. Johns. We chose this neighborhood intentionally, drawn by its unique character and deep sense of community. As one of Portland's oldest neighborhoods, St. Johns stands apart with its iconic bridge, riverside beaches, and rich history. The community center is the bedrock of our neighborhood—a vital resource we cannot afford to lose. We are united in our commitment to preserving what makes St. Johns truly one-of-a-kind.</p>
         <br></br>
-        <p>Why we are here - We want to make a difference in how the City views St John's. We want to speak up for those who cannot. We are tired of  being the dumping ground for the City of Portland. It's time for them to invest in our beautiful part town rather than take stuff away. It's time to defend St Johns. </p>
+        <p>Why we are here - We want to make a difference in how the City views St. Johns. We want to speak up for those who cannot. We are tired of  being the dumping ground for the City of Portland. It's time for them to invest in our beautiful part town rather than take stuff away. It's time to defend St. Johns. </p>
       </section>
 
       <section className="info-section" id="budget">
-        <h2>Regarding the proposed City budget cuts</h2>
+        <h2>Regarding the Proposed City Budget Cuts</h2>
           <div className="info-item">
             <h3>What we know:</h3><br></br>
             <p>&bull; The City of Portland forecasts a $92.8M budget gap.</p><br></br>
-            <p>&bull; The City's budget is $8B.</p><br></br>
-            <p>&bull; The projected gap represents only about 1% of the City's budget.</p><br></br>
-            <p>&bull; The City proposes cutting funds to the Parks and Recreation Department to close the gap among 50+ other bureaus.</p><br></br>
-            <p>&bull; The City's proposal includes <strong>shutting down the St. Johns Community Center</strong>.</p><br></br>
+            <p>&bull; The city's budget is $8B.</p><br></br>
+            <p>&bull; The projected gap represents only about 1% of the city's budget.</p><br></br>
+            <p>&bull; The city proposes cutting funds to the Parks and Recreation Department to close the gap among 50+ other bureaus.</p><br></br>
+            <p>&bull; The city's proposal includes <strong>shutting down the St. Johns Community Center</strong>.</p><br></br>
           </div><hr /><br></br>
 
           <div className="info-item">
-            <h3>We challenge the City's proposal <em>on its own grounds</em>.</h3><br></br>
+            <h3>We challenge the city's proposal <em>on its own grounds</em>.</h3><br></br>
             <p>The City Says:</p><br></br>
             <p>&bull; The rising cost of public healthcare is a significant cause of the budget gap. Closing the SJCC would free up money to close the gap.</p><br></br>
             <p>We Say:</p><br></br>
@@ -31,10 +31,10 @@ const Info = () => {
             <p>The City Says:</p><br></br>
             <p>&bull; Decreased revenue in the form of taxes (property, business, and licensing) is a significant cause of the budget gap. Closing the SJCC would free up money to close the gap.</p><br></br>
             <p>We Say:</p><br></br>
-            <p>&bull; <strong>Closing the SJCC would decrease tax revenue even more</strong> because families would have to move away from the community, lowering property values and starving community businesses both current and future, thereby shrinking tax revenues for the City. Thus <strong>closing the SJCC would not, on balance, free up money</strong> to close the gap.</p><br></br>
+            <p>&bull; <strong>Closing the SJCC would decrease tax revenue even more</strong> because families would have to move away from the community, lowering property values and starving community businesses both current and future, thereby shrinking tax revenues for the city. Thus <strong>closing the SJCC would not, on balance, free up money</strong> to close the gap.</p><br></br>
             <hr /><br></br>
             
-            <h3>We challenge the City's proposal <em>on ethical grounds</em>.</h3><br></br>
+            <h3>We challenge the city's proposal <em>on ethical grounds</em>.</h3><br></br>
             <p>&bull; Closing the SJCC would deprive our community of an important forum for fostering social connection and informal support networks.</p><br></br>
             <p>&bull; Closing the SJCC would encourage illegal camping, thus intensifying public safety concerns.</p><br></br>
             <p>&bull; Closing the SJCC would disproportionately harm low-income families and those 23% of residents living below the poverty line, because they do not have the resources to compensate the loss. </p><br></br>
@@ -72,10 +72,10 @@ const Info = () => {
           </div>
         </section>
 
-<section className="info-section" id="impact">
+<section className="info-section" id="media">
         <h2>Media Coverage</h2>
-        <div className="impact-grid">
-          <div className="impact-item">
+        <div className="media-grid">
+          <div className="media-item">
             <h3>KPTV</h3>
             <a 
               href="https://www.kptv.com/2025/03/13/3-portland-area-community-centers-risk-closing/" 
@@ -85,7 +85,7 @@ const Info = () => {
               3 Portland-area community centers at risk of closing
             </a>
           </div>
-          <div className="impact-item">
+          <div className="media-item">
             <h3>KGW</h3>
             <a 
               href="https://www.kgw.com/video/news/local/portlanders-voice-support-of-st-johns-community-center-which-is-on-the-chopping-block/283-5e60b188-9bd2-469e-b971-d18ea4431d41" 
@@ -98,17 +98,17 @@ const Info = () => {
         </div>
       </section>
       
-      <section className="info-section" id="impact">
+      <section className="info-section" id="events">
         <h2>Upcoming Events:</h2>
-        <div className="impact-grid">
-          <div className="impact-item">
+        <div className="events-grid">
+          <div className="events-item">
             <h3>April 1 – Rally at St. Johns Community Center 6pm</h3>
-            <p>Let's Rally! We are building as much hype around this as possible to send a statement to our Council and City.</p><br></br>
+            <p>Let's Rally! We are building as much hype around this as possible to send a statement!</p><br></br>
             <p>Televised event – let's show the city how much this center means to us!</p><br></br>
             <p>Family-friendly – bring kids, neighbors, and friends!</p><br></br>
             <p>We're working to make this event as engaging and fun as possible and will need a LOT of help. Stay tuned for requests.</p>
           </div>
-          <div className="impact-item">
+          <div className="events-item">
             <h3>April 3 – City Budget Listening Session 6pm to 8:30pm</h3>
             <p>At Portland Community College Cascade Moriarty Auditorium, 5514-5518 N Albina Ave.</p><br></br>
             <p>This is a critical opportunity to provide direct feedback on budget priorities and advocate for keeping the center open.</p>

@@ -17,14 +17,14 @@
   color: #666;
 }
 
-.impact-grid {
+.events-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
 }
 
-.impact-item {
+.events-item {
   padding: 2rem;
   background-color: #f8f9fa;
   border-radius: 10px;
@@ -32,11 +32,35 @@
   transition: transform 0.3s ease;
 }
 
-.impact-item:hover {
+.events-item:hover {
   transform: translateY(-5px);
 }
 
-.impact-item h3 {
+.events-item h3 {
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.media-item {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.media-item:hover {
+  transform: translateY(-5px);
+}
+
+.media-item h3 {
   color: #007bff;
   margin-bottom: 1rem;
 }
