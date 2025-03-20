@@ -5,24 +5,113 @@ const Info = () => {
   return (
     <>
       <section className="info-section" id="about">
-        <h2>sup</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <h2>Who We Are</h2>
+        <p>We are passionate community members who live, work, and raise our families in St. Johns. We chose this neighborhood intentionally, drawn by its unique character and deep sense of community. As one of Portland's oldest neighborhoods, St. Johns stands apart with its iconic bridge, riverside beaches, and rich history. The community center is the bedrock of our neighborhood—a vital resource we cannot afford to lose. We are united in our commitment to preserving what makes St. Johns truly one-of-a-kind.</p>
+        <br></br>
+        <p>Why we are here - We want to make a difference in how the City views St John's. We want to speak up for those who cannot. We are tired of  being the dumping ground for the City of Portland. It's time for them to invest in our beautiful part town rather than take stuff away. It's time to defend St Johns. </p>
+      </section>
+
+      <section className="info-section" id="budget">
+        <h2>Regarding the proposed City budget cuts</h2>
+          <div className="info-item">
+            <h3>What we know:</h3><br></br>
+            <p>&bull; The City of Portland forecasts a $92.8M budget gap.</p><br></br>
+            <p>&bull; The City's budget is $8B.</p><br></br>
+            <p>&bull; The projected gap represents only about 1% of the City's budget.</p><br></br>
+            <p>&bull; The City proposes cutting funds to the Parks and Recreation Department to close the gap among 50+ other bureaus.</p><br></br>
+            <p>&bull; The City's proposal includes <strong>shutting down the St. Johns Community Center</strong>.</p><br></br>
+          </div><hr /><br></br>
+
+          <div className="info-item">
+            <h3>We challenge the City's proposal <em>on its own grounds</em>.</h3><br></br>
+            <p>The City Says:</p><br></br>
+            <p>&bull; The rising cost of public healthcare is a significant cause of the budget gap. Closing the SJCC would free up money to close the gap.</p><br></br>
+            <p>We Say:</p><br></br>
+            <p>&bull; <strong>Closing the SJCC would raise the cost of healthcare even more</strong> because the SJCC provides recreational activities supporting health and wellness for those who might not otherwise have access. Thus <strong>closing the SJCC would not, on balance, free up money</strong> to close the gap.</p><br></br>
+            <p>The City Says:</p><br></br>
+            <p>&bull; Decreased revenue in the form of taxes (property, business, and licensing) is a significant cause of the budget gap. Closing the SJCC would free up money to close the gap.</p><br></br>
+            <p>We Say:</p><br></br>
+            <p>&bull; <strong>Closing the SJCC would decrease tax revenue even more</strong> because families would have to move away from the community, lowering property values and starving community businesses both current and future, thereby shrinking tax revenues for the City. Thus <strong>closing the SJCC would not, on balance, free up money</strong> to close the gap.</p><br></br>
+            <hr /><br></br>
+            
+            <h3>We challenge the City's proposal <em>on ethical grounds</em>.</h3><br></br>
+            <p>&bull; Closing the SJCC would deprive our community of an important forum for fostering social connection and informal support networks.</p><br></br>
+            <p>&bull; Closing the SJCC would encourage illegal camping, thus intensifying public safety concerns.</p><br></br>
+            <p>&bull; Closing the SJCC would disproportionately harm low-income families and those 23% of residents living below the poverty line, because they do not have the resources to compensate the loss. </p><br></br>
+            <p>&bull; Closing the SJCC would disproportionately affect persons of color, since St. Johns is home to one of the more diverse populations in Portland, with 37% of our residents being Hispanic or Black.</p><br></br>
+            <p>&bull; Closing the SJCC would constitute yet another episode in the long, documented history of the City's targeted, neglectful treatment of North Portland in general and St. Johns in particular.</p><br></br>
+            <hr /><br></br>
+
+            <h3>What can you do?</h3><br></br>
+            <p>&bull; <strong>Join the Defense!</strong> Join the St. Johns Defenders to STOP our Community Center's closure. Fill out this <a 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeyLG5h71oPcSU3qClaqk_A10KfU555wNdToNksfYWoTjqudQ/viewform?pli=1" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >short Google form</a> to stay in the know and find out what events are being planned.</p><br></br>
+            <p>&bull; <strong>Voice your concerns!</strong> Let your City Council know your thoughts on their <a   
+              href="https://www.portland.gov/budget/budget-comment-and-testimony" 
+              target="_blank"
+              rel="noopener noreferrer"
+              >response form here</a>.</p><br></br>
+            <p>&bull; <strong>Sign the petition</strong> if you prefer to be anonymous <a 
+              href="https://www.change.org/p/halt-the-closure-of-st-johns-community-center?source_location=search" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >here</a>.</p><br></br>
+            <p>&bull; <strong>Register</strong> <a 
+              href="https://savethesjcc.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >here</a> and they'll send in the above form for you!</p><br></br>
+            <p>&bull; <strong>Business Outreach:</strong> We have a growing list of businesses displaying flyers (see below). Feel free to help distribute! Print a handful of these out and take them with you wherever you go!</p><br></br>
+            {/* <hr /><br></br>
+
+            <h3>Email Push</h3><br></br>
+            <p>&bull; Sign up for our email list to receive updates and be part of the push to save the SJCC.</p><br></br>
+            <p>&bull; Emails will be coordinated on specific dates to maximize impact on staffers to be heard by the City Council.</p><br></br> */}
+          </div>
+        </section>
+
+<section className="info-section" id="impact">
+        <h2>Media Coverage</h2>
+        <div className="impact-grid">
+          <div className="impact-item">
+            <h3>KPTV</h3>
+            <a 
+              href="https://www.kptv.com/2025/03/13/3-portland-area-community-centers-risk-closing/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              3 Portland-area community centers at risk of closing
+            </a>
+          </div>
+          <div className="impact-item">
+            <h3>KGW</h3>
+            <a 
+              href="https://www.kgw.com/video/news/local/portlanders-voice-support-of-st-johns-community-center-which-is-on-the-chopping-block/283-5e60b188-9bd2-469e-b971-d18ea4431d41" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Portlanders voice support of St. Johns Community Center, which is on the chopping block
+            </a>
+          </div>
+        </div>
       </section>
       
       <section className="info-section" id="impact">
-        <h2>further action</h2>
+        <h2>Upcoming Events:</h2>
         <div className="impact-grid">
           <div className="impact-item">
-            <h3>do what</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>April 1 – Rally at St. Johns Community Center 6pm</h3>
+            <p>Let's Rally! We are building as much hype around this as possible to send a statement to our Council and City.</p><br></br>
+            <p>Televised event – let's show the city how much this center means to us!</p><br></br>
+            <p>Family-friendly – bring kids, neighbors, and friends!</p><br></br>
+            <p>We're working to make this event as engaging and fun as possible and will need a LOT of help. Stay tuned for requests.</p>
           </div>
           <div className="impact-item">
-            <h3>how do</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div className="impact-item">
-            <h3>who</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>April 3 – City Budget Listening Session 6pm to 8:30pm</h3>
+            <p>At Portland Community College Cascade Moriarty Auditorium, 5514-5518 N Albina Ave.</p><br></br>
+            <p>This is a critical opportunity to provide direct feedback on budget priorities and advocate for keeping the center open.</p>
           </div>
         </div>
       </section>
