@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Info.css';
+import SJCCQR from '../img/SJCCQR.png';
 
 const Info = () => {
   return (
@@ -43,11 +44,18 @@ const Info = () => {
             <hr /><br></br>
 
             <h3>What can you do?</h3><br></br>
-            <p>&bull; <strong>Join the Defense!</strong> Join the St. Johns Defenders to STOP our Community Center's closure. Fill out this <a 
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeyLG5h71oPcSU3qClaqk_A10KfU555wNdToNksfYWoTjqudQ/viewform?pli=1" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >short Google form</a> to stay in the know and find out what events are being planned.</p><br></br>
+            <div className="action-item">
+              <p>&bull; <strong>Join the Defense!</strong> Join the St. Johns Defenders to STOP our Community Center's closure. Fill out this <a 
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeyLG5h71oPcSU3qClaqk_A10KfU555wNdToNksfYWoTjqudQ/viewform?pli=1" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >short Google form</a> to stay in the know and find out what events are being planned.</p>
+              <img 
+                src={SJCCQR} 
+                alt="QR Code for Google Form" 
+                className="qr-code"
+              />
+            </div>
             <p>&bull; <strong>Voice your concerns!</strong> Let your City Council know your thoughts on their <a   
               href="https://www.portland.gov/budget/budget-comment-and-testimony" 
               target="_blank"
