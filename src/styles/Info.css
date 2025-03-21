@@ -17,6 +17,17 @@
   color: #666;
 }
 
+.info-section a {
+  color: #666;  /* Match the color of regular text */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.info-section a:hover {
+  color: #333;  /* Slightly darker on hover for better interaction feedback */
+  text-decoration: none;
+}
+
 .events-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

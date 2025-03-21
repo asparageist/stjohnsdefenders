@@ -23,9 +23,6 @@ const Footer = () => {
               @stjohnsdefender
             </a>
             </div>
-          <p>Other contacts</p>
-          <p>Other social media</p>
-          <p>Other resources</p>
         </div>
       </div>
       <div className="footer-bottom">
