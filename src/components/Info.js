@@ -7,9 +7,10 @@ const Info = () => {
     <>
       <section className="info-section" id="about">
         <h2>Who We Are</h2>
-        <p>We are passionate community members who live, work, and raise our families in St. Johns. We chose this neighborhood intentionally, drawn by its unique character and deep sense of community. As one of Portland's oldest neighborhoods, St. Johns stands apart with its iconic bridge, riverside beaches, and rich history. The community center is the bedrock of our neighborhood—a vital resource we cannot afford to lose. We are united in our commitment to preserving what makes St. Johns truly one-of-a-kind.</p>
+        <p>We are passionate community members who live, work, and raise our families in St. Johns. We chose this neighborhood intentionally, drawn by its unique character and deep sense of community. As one of Portland's oldest neighborhoods, St. Johns stands apart with its iconic bridge, riverside beaches, and rich history. The community center is the bedrock of our neighborhood. It is a vital resource we cannot afford to lose. We are united in our commitment to preserving what makes St. Johns truly one-of-a-kind.</p>
         <br></br>
-        <p>Why we are here - We want to make a difference in how the City views St. Johns. We want to speak up for those who cannot. We are tired of  being the dumping ground for the City of Portland. It's time for them to invest in our beautiful part town rather than take stuff away. It's time to defend St. Johns. </p>
+        <h2>Why We Are Here</h2>
+        <p>We want to make a difference in how the City views St. Johns. We want to speak up for those who cannot. We are tired of  being the dumping ground for the City of Portland. It's time for them to invest in our beautiful part town rather than take stuff away. It's time to defend St. Johns. </p>
       </section>
 
       <section className="info-section" id="budget">
@@ -19,7 +20,7 @@ const Info = () => {
             <p>&bull; The City of Portland forecasts a $92.8M budget gap.</p><br></br>
             <p>&bull; The city's budget is $8B.</p><br></br>
             <p>&bull; The projected gap represents only about 1% of the city's budget.</p><br></br>
-            <p>&bull; The city proposes cutting funds to the Parks and Recreation Department to close the gap among 50+ other bureaus.</p><br></br>
+            <p>&bull; The city proposes cutting funds to the Parks and Recreation Department to close the gap, targeted unfairly among 26 other bureaus that report directly to the Mayor.</p><br></br>
             <p>&bull; The city's proposal includes <strong>shutting down the St. Johns Community Center</strong>.</p><br></br>
           </div><hr /><br></br>
 
@@ -37,9 +38,10 @@ const Info = () => {
             
             <h3>We challenge the city's proposal <em>on ethical grounds</em>.</h3><br></br>
             <p>&bull; Closing the SJCC would deprive our community of an important forum for fostering social connection and informal support networks.</p><br></br>
+            <p>&bull; CLosing the SJCC would deprive children of after school and Sunday programs, as well as summer camps, which are vital for parents who need to work through the summer.</p><br></br>
             <p>&bull; Closing the SJCC would encourage illegal camping, thus intensifying public safety concerns.</p><br></br>
             <p>&bull; Closing the SJCC would disproportionately harm low-income families and those 23% of residents living below the poverty line, because they do not have the resources to compensate the loss. </p><br></br>
-            <p>&bull; Closing the SJCC would disproportionately affect persons of color, since St. Johns is home to one of the more diverse populations in Portland, with 37% of our residents being Hispanic or Black.</p><br></br>
+            <p>&bull; Closing the SJCC would disproportionately affect persons of color. St. Johns is home to one of the more diverse populations in Portland, representing 37% of our residents as persons of color.</p><br></br>
             <p>&bull; Closing the SJCC would constitute yet another episode in the long, documented history of the City's targeted, neglectful treatment of North Portland in general and St. Johns in particular.</p><br></br>
             <hr /><br></br>
 
@@ -122,6 +124,20 @@ const Info = () => {
             <p>This is a critical opportunity to provide direct feedback on budget priorities and advocate for keeping the center open.</p>
           </div>
         </div>
+      </section>
+
+      <section className="info-section" id="Links">
+        <h2>Further Exploration</h2>
+        <p>Check out the <a 
+              href="https://www.portland.gov/parks/st-johns-community-center" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >St Johns Community Center</a> website for details on the center's history, programs, and what its loss would mean for our community.</p><br></br>
+        <p>A list of Council members from our district can be found <a
+              href="https://www.portland.gov/council/districts/2" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >here</a>.</p>
       </section>
     </>
   );

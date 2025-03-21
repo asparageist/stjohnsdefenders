@@ -11,7 +11,6 @@ function App() {
       <Navbar />
       <Community />
       <Info />
-      <InstagramFeed />
       <Footer />
     </div>
   );
