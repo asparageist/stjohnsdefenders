@@ -38,7 +38,11 @@ const Info = () => {
             
             <h3>We challenge the city's proposal <em>on ethical grounds</em>.</h3><br></br>
             <p>&bull; Closing the SJCC would deprive our community of an important forum for fostering social connection and informal support networks.</p><br></br>
-            <p>&bull; CLosing the SJCC would deprive children of after school and Sunday programs, as well as summer camps, which are vital for parents who need to work through the summer.</p><br></br>
+            <p>&bull; CLosing the SJCC would deprive children of after school and <a
+            href="https://web.multco.us/sun/sun-community-schools" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            > SUN programs</a>, as well as summer camps, which are vital for parents who need to work through the summer.</p><br></br>
             <p>&bull; Closing the SJCC would encourage illegal camping, thus intensifying public safety concerns.</p><br></br>
             <p>&bull; Closing the SJCC would disproportionately harm low-income families and those 23% of residents living below the poverty line, because they do not have the resources to compensate the loss. </p><br></br>
             <p>&bull; Closing the SJCC would disproportionately affect persons of color. St. Johns is home to one of the more diverse populations in Portland, representing 37% of our residents as persons of color.</p><br></br>
