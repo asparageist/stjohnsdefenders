@@ -43,6 +43,11 @@ const Info = () => {
             target="_blank" 
             rel="noopener noreferrer"
             > SUN programs</a>, as well as summer camps, which are vital for parents who need to work through the summer.</p><br></br>
+            <p>&bull; Closing the SJCC would deprive our community of its <a
+            href="https://www.portland.gov/pbem/neighborhood-emergency-teams" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            > NET location</a>, removing our community's ability to meet and provide safety and resources in event of an emergency or disaster.</p><br></br>
             <p>&bull; Closing the SJCC would encourage illegal camping, thus intensifying public safety concerns.</p><br></br>
             <p>&bull; Closing the SJCC would disproportionately harm low-income families and those 23% of residents living below the poverty line, because they do not have the resources to compensate the loss. </p><br></br>
             <p>&bull; Closing the SJCC would disproportionately affect persons of color. St. Johns is home to one of the more diverse populations in Portland, representing 37% of our residents as persons of color.</p><br></br>
@@ -136,7 +141,7 @@ const Info = () => {
               href="https://www.portland.gov/parks/st-johns-community-center" 
               target="_blank" 
               rel="noopener noreferrer"
-            >St Johns Community Center</a> website for details on the center's history, programs, and what its loss would mean for our community.</p><br></br>
+            >St Johns Community Center</a> website for details on the center's programs and what its loss would mean for our community.</p><br></br>
         <p>A list of Council members from our district can be found <a
               href="https://www.portland.gov/council/districts/2" 
               target="_blank" 
