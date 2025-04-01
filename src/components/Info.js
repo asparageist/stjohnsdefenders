@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Info.css';
 import SJCCQR from '../img/SJCCQR.png';
+import RallyPoster from '../img/SJCC rally poster.jpg';
 
 const Info = () => {
   return (
@@ -125,12 +126,20 @@ const Info = () => {
             </a>
           </div>
         </div>
+</section>
 
-      </section>
-      
+  <h2>Upcoming Events:</h2>
+
       <section className="info-section" id="events">
         <h2>Upcoming Events:</h2>
         <div className="events-grid">
+          <div className="events-item">
+            <img 
+              src={RallyPoster} 
+              alt="SJCC Rally Poster" 
+              className="rally-poster"
+            />
+          </div>
           <div className="events-item">
             <h3>April 1 – Rally at St. Johns Community Center 6pm</h3>
             <p>Let's Rally! We are building as much hype around this as possible to send a statement!</p><br></br>

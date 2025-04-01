@@ -90,6 +90,15 @@
   flex-shrink: 0;  /* Prevents QR code from shrinking */
 }
 
+.rally-poster {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 768px) {
   .info-section {
     padding: 3rem 1rem;
@@ -107,5 +116,9 @@
   .qr-code {
     width: 80px;  /* Slightly smaller on mobile */
     height: 80px;
+  }
+
+  .rally-poster {
+    max-width: 300px;
   }
 } 
