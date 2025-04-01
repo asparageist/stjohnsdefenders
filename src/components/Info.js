@@ -128,8 +128,6 @@ const Info = () => {
         </div>
 </section>
 
-  <h2>Upcoming Events:</h2>
-
       <section className="info-section" id="events">
         <h2>Upcoming Events:</h2>
         <div className="events-grid">
