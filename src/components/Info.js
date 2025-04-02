@@ -126,6 +126,31 @@ const Info = () => {
             </a>
           </div>
         </div>
+        <br></br>
+        <div className="media-grid">
+        
+        <div className="media-item">
+          <h3>KATU-Rally Coverage</h3>
+            <a 
+              href="https://katu.com/news/local/st-johns-neighborhood-holds-rally-to-preserve-community-center" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+            St. Johns neighborhood holds rally to preserve community center
+            </a>
+        </div>
+        <div className="media-item">
+        <h3>KPTV-Rally Coverage</h3>
+          <a 
+            href="https://www.kptv.com/video/2025/04/02/community-rallies-save-st-johns-community-center-budget-cuts-loom/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Community rallies to save St. Johns Community Center as budget cuts loom
+          </a>
+        </div>
+        </div>
+
 </section>
 
       <section className="info-section" id="events">
