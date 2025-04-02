@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Info.css';
 import SJCCQR from '../img/SJCCQR.png';
-import RallyPoster from '../img/SJCC rally poster.jpg';
+import RallyPosterSuccess from '../img/SJCC rally poster SUCCESS.jpg';
 
 const Info = () => {
   return (
@@ -158,7 +158,7 @@ const Info = () => {
         <div className="events-grid">
           <div className="events-item">
             <img 
-              src={RallyPoster} 
+              src={RallyPosterSuccess} 
               alt="SJCC Rally Poster" 
               className="rally-poster"
             />
