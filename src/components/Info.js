@@ -115,16 +115,6 @@ const Info = () => {
               Portlanders voice support of St. Johns Community Center, which is on the chopping block
             </a>
           </div>
-        <div className="media-item">
-            <h3>KATU</h3>
-            <a 
-              href="https://katu.com/news/local/residents-rally-against-proposed-closure-of-st-johns-community-center#" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              Residents rally against proposed closure a Portland community center
-            </a>
-          </div>
         </div>
         <br></br>
         <div className="media-grid">
