@@ -134,6 +134,70 @@
   text-decoration: none;
 }
 
+.letter-container {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.letter-container h3 {
+  color: #007bff;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.legislator-letter {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.legislator-letter:hover {
+  transform: scale(1.02);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.close-button {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+}
+
 @media (max-width: 768px) {
   .info-section {
     padding: 3rem 1rem;
@@ -164,5 +228,18 @@
   .video-link {
     padding: 0.8rem 1.5rem;
     font-size: 0.9rem;
+  }
+
+  .letter-container {
+    margin-top: 3rem;
+  }
+
+  .letter-container h3 {
+    font-size: 1.3rem;
+  }
+
+  .close-button {
+    top: -40px;
+    right: 0;
   }
 } 

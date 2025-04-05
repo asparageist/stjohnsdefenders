@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Info.css';
 import SJCCQR from '../img/SJCCQR.png';
 import RallyPosterSuccess from '../img/SJCC rally poster SUCCESS.jpg';
+import LegislatorLetter from '../img/Legislator Letter.png';
 
 const Info = () => {
+  const [isLetterModalOpen, setIsLetterModalOpen] = useState(false);
+
   return (
     <>
       <section className="info-section" id="about">
@@ -166,6 +169,27 @@ const Info = () => {
             <p>This is a critical opportunity to provide direct feedback on budget priorities and advocate for keeping the center open.</p>
           </div>
         </div>
+        <div className="letter-container">
+          <h3>Letter from Our Legislators</h3>
+          <img 
+            src={LegislatorLetter} 
+            alt="Letter from Legislators" 
+            className="legislator-letter"
+            onClick={() => setIsLetterModalOpen(true)}
+          />
+        </div>
+        {isLetterModalOpen && (
+          <div className="modal-overlay" onClick={() => setIsLetterModalOpen(false)}>
+            <div className="modal-content">
+              <img 
+                src={LegislatorLetter} 
+                alt="Letter from Legislators" 
+                className="modal-image"
+              />
+              <button className="close-button" onClick={() => setIsLetterModalOpen(false)}>×</button>
+            </div>
+          </div>
+        )}
       </section>
 
       <section className="info-section" id="Links">
