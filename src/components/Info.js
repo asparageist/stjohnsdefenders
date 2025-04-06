@@ -87,15 +87,10 @@ const Info = () => {
               rel="noopener noreferrer"
             >here</a> and they'll send in the above form for you!</p><br></br>
             <p>&bull; <strong>Business Outreach:</strong> We have a growing list of businesses displaying flyers (see below). Feel free to help distribute! Print a handful of these out and take them with you wherever you go!</p><br></br>
-            {/* <hr /><br></br>
-
-            <h3>Email Push</h3><br></br>
-            <p>&bull; Sign up for our email list to receive updates and be part of the push to save the SJCC.</p><br></br>
-            <p>&bull; Emails will be coordinated on specific dates to maximize impact on staffers to be heard by the City Council.</p><br></br> */}
           </div>
         </section>
 
-<section className="info-section" id="media">
+      <section className="info-section" id="media">
         <h2>Media Coverage</h2>
         <div className="media-grid">
           <div className="media-item">
@@ -121,30 +116,28 @@ const Info = () => {
         </div>
         <br></br>
         <div className="media-grid">
-        
-        <div className="media-item">
-          <h3>KATU-Rally Coverage</h3>
+          <div className="media-item">
+            <h3>KATU-Rally Coverage</h3>
             <a 
               href="https://katu.com/news/local/st-johns-neighborhood-holds-rally-to-preserve-community-center" 
               target="_blank" 
               rel="noopener noreferrer"
             >
-            St. Johns neighborhood holds rally to preserve community center
+              St. Johns neighborhood holds rally to preserve community center
             </a>
+          </div>
+          <div className="media-item">
+            <h3>KPTV-Rally Coverage</h3>
+            <a 
+              href="https://www.kptv.com/video/2025/04/02/community-rallies-save-st-johns-community-center-budget-cuts-loom/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              Community rallies to save St. Johns Community Center as budget cuts loom
+            </a>
+          </div>
         </div>
-        <div className="media-item">
-        <h3>KPTV-Rally Coverage</h3>
-          <a 
-            href="https://www.kptv.com/video/2025/04/02/community-rallies-save-st-johns-community-center-budget-cuts-loom/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-          >
-            Community rallies to save St. Johns Community Center as budget cuts loom
-          </a>
-        </div>
-        </div>
-
-</section>
+      </section>
 
       <section className="info-section" id="events">
         <h2>Upcoming Events:</h2>

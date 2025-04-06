@@ -18,24 +18,24 @@
 }
 
 .info-section a {
-  color: #666;  
+  color: #666;
   text-decoration: underline;
   transition: color 0.3s ease;
 }
 
 .info-section a:hover {
-  color: #333;  
+  color: #333;
   text-decoration: none;
 }
 
-.events-grid {
+.events-grid, .media-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
 }
 
-.events-item {
+.events-item, .media-item {
   padding: 2rem;
   background-color: #f8f9fa;
   border-radius: 10px;
@@ -43,35 +43,11 @@
   transition: transform 0.3s ease;
 }
 
-.events-item:hover {
+.events-item:hover, .media-item:hover {
   transform: translateY(-5px);
 }
 
-.events-item h3 {
-  color: #007bff;
-  margin-bottom: 1rem;
-}
-
-.media-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
-}
-
-.media-item {
-  padding: 2rem;
-  background-color: #f8f9fa;
-  border-radius: 10px;
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.media-item:hover {
-  transform: translateY(-5px);
-}
-
-.media-item h3 {
+.events-item h3, .media-item h3 {
   color: #007bff;
   margin-bottom: 1rem;
   text-align: center;
@@ -86,10 +62,10 @@
 }
 
 .qr-code {
-  width: 100px;  
+  width: 100px;
   height: 100px;
   object-fit: contain;
-  flex-shrink: 0;  
+  flex-shrink: 0;
 }
 
 .rally-poster {
@@ -99,39 +75,6 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
-}
-
-.video-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-  margin: 1rem 0;
-}
-
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 8px;
-}
-
-.video-link {
-  display: inline-block;
-  padding: 1rem 2rem;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-  margin-top: 1rem;
-}
-
-.video-link:hover {
-  background-color: #0056b3;
-  color: white;
-  text-decoration: none;
 }
 
 .letter-container {
@@ -213,21 +156,12 @@
   }
   
   .qr-code {
-    width: 80px; 
+    width: 80px;
     height: 80px;
   }
 
   .rally-poster {
     max-width: 300px;
-  }
-
-  .video-container {
-    margin: 0.5rem 0;
-  }
-
-  .video-link {
-    padding: 0.8rem 1.5rem;
-    font-size: 0.9rem;
   }
 
   .letter-container {
