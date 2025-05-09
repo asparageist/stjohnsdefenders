@@ -150,17 +150,17 @@ const Info = () => {
             />
           </div>
           <div className="events-item">
-            <h3>April 1 – Rally at St. Johns Community Center 6pm</h3>
-            <p>Let's Rally! We are building as much hype around this as possible to send a statement!</p><br></br>
-            <p>Televised event – let's show the city how much this center means to us!</p><br></br>
-            <p>Family-friendly – bring kids, neighbors, and friends!</p><br></br>
-            <p>We're working to make this event as engaging and fun as possible and will need a LOT of help. Stay tuned for requests.</p>
+            <h3><a 
+              href="https://stjohnsbizarre.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >May 10 – St Johns Bizarre</a></h3>
+            <p>Come support your Mayor and District 2 City Councilors by cheering your heart out at the parade! The parade feels extra special this year because it will end at our beloved community center (that we all love so dearly and have been vigilantly and passionately fighting for!)
+            </p><br></br>
+            <p>Please visit us at our St Johns Defenders booth! We will be celebrating our collective success to keep the SJCC open! Thanks to everyone! WE DID IT TOGETHER!</p><br></br>
+            <p>Come get your t-shirts at the St Johns Defenders booth! And continue proudly wearing them as a show of support for our St Johns neighborhood. This community is worth fighting for… and these shirts symbolize more than just saving the SJCC… they represent our mission to continue advocating for our sweet community, now and in the future, whatever may come our way.</p><br></br>
           </div>
-          <div className="events-item">
-            <h3>April 3 – City Budget Listening Session 6pm to 8:30pm</h3>
-            <p>At Portland Community College Cascade Moriarty Auditorium, 5514-5518 N Albina Ave.</p><br></br>
-            <p>This is a critical opportunity to provide direct feedback on budget priorities and advocate for keeping the center open.</p>
-          </div>
+          
         </div>
         <div className="letter-container">
           <h3>Letter from Our Legislators</h3>

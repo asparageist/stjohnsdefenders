@@ -5,7 +5,7 @@ const Community = () => {
   return (
     <div className="hero" id="home">
       <div className="hero-content">
-        <h1>Welcome to the Defense!</h1>
+        <h1>We did it!</h1>
       </div>
     </div>
   );
