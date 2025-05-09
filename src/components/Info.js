@@ -42,7 +42,7 @@ const Info = () => {
             
             <h3>We challenge the city's proposal <em>on ethical grounds</em>.</h3><br></br>
             <p>&bull; Closing the SJCC would deprive our community of an important forum for fostering social connection and informal support networks.</p><br></br>
-            <p>&bull; CLosing the SJCC would deprive children of after school and <a
+            <p>&bull; Closing the SJCC would deprive children of after school and <a
             href="https://web.multco.us/sun/sun-community-schools" 
             target="_blank" 
             rel="noopener noreferrer"
@@ -57,6 +57,7 @@ const Info = () => {
             <p>&bull; Closing the SJCC would disproportionately affect persons of color. St. Johns is home to one of the more diverse populations in Portland, representing 37% of our residents as persons of color.</p><br></br>
             <p>&bull; Closing the SJCC would constitute yet another episode in the long, documented history of the City's targeted, neglectful treatment of North Portland in general and St. Johns in particular.</p><br></br>
             <hr /><br></br>
+          </div>
         </section>
 
       <section className="info-section" id="media">
