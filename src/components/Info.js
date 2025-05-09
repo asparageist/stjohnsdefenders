@@ -57,37 +57,6 @@ const Info = () => {
             <p>&bull; Closing the SJCC would disproportionately affect persons of color. St. Johns is home to one of the more diverse populations in Portland, representing 37% of our residents as persons of color.</p><br></br>
             <p>&bull; Closing the SJCC would constitute yet another episode in the long, documented history of the City's targeted, neglectful treatment of North Portland in general and St. Johns in particular.</p><br></br>
             <hr /><br></br>
-
-            <h3>What can you do?</h3><br></br>
-            <div className="action-item">
-              <p>&bull; <strong>Join the Defense!</strong> Join the St. Johns Defenders to STOP our Community Center's closure. Fill out this <a 
-                href="https://docs.google.com/forms/d/e/1FAIpQLSeyLG5h71oPcSU3qClaqk_A10KfU555wNdToNksfYWoTjqudQ/viewform?pli=1" 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >short Google form</a> to stay in the know and find out what events are being planned.</p>
-              <img 
-                src={SJCCQR} 
-                alt="QR Code for Google Form" 
-                className="qr-code"
-              />
-            </div>
-            <p>&bull; <strong>Voice your concerns!</strong> Let your City Council know your thoughts on their <a   
-              href="https://www.portland.gov/budget/budget-comment-and-testimony" 
-              target="_blank"
-              rel="noopener noreferrer"
-              >response form here</a>.</p><br></br>
-            <p>&bull; <strong>Sign the petition</strong> if you prefer to be anonymous <a 
-              href="https://www.change.org/p/halt-the-closure-of-st-johns-community-center?source_location=search" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >here</a>.</p><br></br>
-            <p>&bull; <strong>Register</strong> <a 
-              href="https://savethesjcc.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >here</a> and they'll send in the above form for you!</p><br></br>
-            <p>&bull; <strong>Business Outreach:</strong> We have a growing list of businesses displaying flyers (see below). Feel free to help distribute! Print a handful of these out and take them with you wherever you go!</p><br></br>
-          </div>
         </section>
 
       <section className="info-section" id="media">
