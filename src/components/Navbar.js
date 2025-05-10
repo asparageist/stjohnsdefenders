@@ -22,7 +22,6 @@ const Navbar = () => {
         <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
           <li><a href="#home" onClick={() => setIsOpen(false)}>Main</a></li>
           <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
-          <li><a href="#media" onClick={() => setIsOpen(false)}>Media</a></li>
           <li><a href="#events" onClick={() => setIsOpen(false)}>Events</a></li>
         </ul>
       </div>
